@@ -47,9 +47,10 @@ group :development do
 end
 
 group :test do
-
+  gem 'capybara'
   gem 'faker'
   gem 'chronic'
+  gem 'launchy'
 end
 
 group :development, :test do
@@ -61,3 +62,6 @@ group :development, :test do
   # Turn off verbose logging of asset requests
   gem 'quiet_assets'
 end
+
+
+gem 'devise'
